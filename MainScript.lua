@@ -325,6 +325,12 @@ GUI.CreateButton({
 	Function = function(callback) Blatant.SetVisible(callback) end, 
 	Icon = "vape/assets/BlatantIcon.png", 
 	IconSize = 16
+
+GUI.CreateButton({
+	Name = "Fall Config",
+	Function = function(callback) Fall Config.SetVisible(callback) end,
+	Icon = "vape/assets/BlatantIcon.png
+	IconSize = 16
 })
 GUI.CreateButton({
 	Name = "Render", 
